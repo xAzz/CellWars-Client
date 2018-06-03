@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cell Wars 對內測試用</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+    <div id="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <div class="box username">
+                        <div class="boxHeader"><h1><i class="fa fa-arrow-circle-right"></i> Enter Username</h1></div>
+                        <div class="boxContent">
+                            <div class="input-group">
+                              <input id="username" type="text" class="form-control" placeholder="Username">
+                              <span class="input-group-btn">
+                                <button id="continue" class="btn btn-primary" type="button"><i class="fa fa-arrow-circle-right"></i> Go!</button>
+                              </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box profile">
+                        <div class="boxHeader"><h1><i class="fa fa-user-circle"></i> Profile</h1></div>
+                        <div class="boxContent">
+                            username: <span class="user"></span><br>
+                            email: <span class="email"></span><br>
+                            <button id="logout" type="button" class="btn btn-primary"><i class="fa fa-sign-out"></i> Logout</button>
+                        </div>
+                    </div>
+                    <div class="box login">
+                        <div class="boxHeader"><h1><i class="fa fa-sign-in"></i> Login</h1></div>
+                        <div class="boxContent">
+                            <button id="facebook" type="button" class="btn btn-primary" disabled><i class="fa fa-facebook-official"></i> Facebook</button>
+                            <button id="twitter" type="button" class="btn btn-primary"><i class="fa fa-twitter"></i> Twitter</button>
+                            <button id="google" type="button" class="btn btn-primary"><i class="fa fa-google-plus"></i> Google</button>
+                        </div>
+                    </div>
+                    <div class="box play">
+                        <div class="boxHeader"><h1><i class="fa fa-gamepad"></i> Play Now!</h1></div>
+                        <div class="boxContent">
+                            <input id="nickname" type="text" class="form-control" placeholder="Nickname" autofocus>
+                            <button id="europe" class="btn btn-primary"><i class="fa fa-check"></i> 測試用</button>
+                            <button id="asia" class="btn btn-primary"><i class="fa fa-check"></i> 作業用</button>
+                            <button id="americas" class="btn btn-primary"><i class="fa fa-check"></i> 參考用</button>
+                            <button id="spawn" type="button" class="btn btn-primary"><i class="fa fa-play-circle"></i> 快速重生</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fps"></div>
+    <div id="leaderboard">
+        <div id="lbHead">CellWars 內測</div>
+        <div id="lbPos"></div>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
