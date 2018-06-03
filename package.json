@@ -1,0 +1,50 @@
+{
+  "name": "CellWarsClient",
+  "version": "0.0.1",
+  "description": "Eat cells!",
+  "author": "2coolife & Acydwarp",
+  "homepage": "https://github.com/acydwarp/CellWars",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "buffer": "^5.0.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "jquery": "^3.2.1",
+    "lz4": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-eslint": "^3.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "eslint-config-standard": "^10.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.3.1",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-builtins": "^2.1.0",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-stream": "^1.19.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acydwarp/CellWars"
+  },
+  "bugs": {
+    "url": "https://github.com/acydwarp/CellWars/issues"
+  }
+}
